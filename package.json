@@ -1,0 +1,37 @@
+{
+  "name": "level-modify",
+  "version": "0.1.0",
+  "description": "Modify an existing key in a levelup store.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dskrepps/level-modify.git"
+  },
+  "keywords": [
+    "leveldb",
+    "levelup",
+    "modify",
+    "update",
+    "change"
+  ],
+  "author": "Dylan Krepps <dskrepps@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dskrepps/level-modify/issues"
+  },
+  "homepage": "https://github.com/dskrepps/level-modify#readme",
+  "devDependencies": {
+    "level-test": "^2.0.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "level-lock": "^1.0.1"
+  }
+}
